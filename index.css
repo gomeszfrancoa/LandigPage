@@ -1,0 +1,65 @@
+
+
+body {
+    display: block;
+    background-color: rgb(165, 42, 42);
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align:right;
+    font-family: 'Lato', sans-serif;
+    display: flex ;
+    justify-content: flex-start;
+    
+   
+    
+}
+
+
+
+.menu {
+    width: 100%;
+    overflow: hidden;
+    background-color:rgb(69, 2,17);
+
+    
+}
+    
+
+.logo {
+    float: right;
+    height: 200px;
+    line-height: 200px;
+}
+
+.botones {
+    width: 100%;
+    max-width: 1000px;
+    margin:auto;
+    margin-top: 10px;
+    margin-right: 200px;
+    margin-left: 100px;
+    padding: auto;
+    justify-content: space-between;
+
+}
+
+a {
+  
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+    line-height: normal;
+    font-size: 15px;
+    font-weight: bold;
+    
+    
+}
+
+a:hover {
+    text-decoration: underline;
+    transition: 1s;
+  }
